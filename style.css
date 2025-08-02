@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: #eae9e4; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.clear-fix::after{
+    content:'';
+    display: block; 
+    clear: both; 
+}
+
+#top-menu{
+    margin: 0 5cm;
+    color: #eda911;
+    line-height: 45px; 
+}
+
+ul.menu{ 
+    text-align:center; 
+}
+
+ul.menu > li{ 
+    display:inline-block;
+    margin: 0 2em;
+}
+
+.toMauNauDen{
+    color: #5a2f27;
+}
+
+
+#banner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#banner > *{
+    width:50%;
+    height:100%;
+}
+
+#banner h1{
+    margin: 1em 0;
+    color:#5a2f27;
+    font-size: 6em;
+    line-height: 1.5;
+}
+
+#banner p{
+    color:#5a2f27;
+    line-height: 1.5;
+}
+
+#banner button{
+    padding: 1em 3em;
+    margin: 2em;
+    color: #fff;
+    background-color: #000;
+    border: solid pink thick;
+}
+
+ form.neuYKien{
+    margin: 3em 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5a2f27;
+    text-align: center;
+    padding: 2em;
+    border-top: #eda911 30px solid;
+    border-radius: 10px;
+}
+
+#banner form input, #banner form textarea{
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    display: block;
+    width: 100%;
+    margin: 3em auto;
+    padding: 1.5em 1em;
+    line-height: 1em;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+#banner form ::placeholder{
+    color: white;
+}
+
+#banner form.neuYKien button{
+    margin: 7em 0em 3em 0em;
+    border-radius: 1.5em;
+}
+
+
+
+
+
+
+#backgroundWhite{
+    background-color: white;
+    text-align:center;
+    padding: 6em 0;
+}
+
+#bannerNophanChia{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.yellowfirst1::before{
+    content: "Food ";
+    color: #F6B219;
+}
+
+#backgroundWhite h1{
+    font-size: 3em;
+    color:#5a2f27;
+    margin-bottom: 1em;
+}
+
+div.boxBrown{
+    display:inline-block;
+    width:375px;
+    height:475px;
+    background-color:#5a2f27;
+    margin: 12em 0 8em 0;
+}
+
+.boxBrown p{
+    color: white;
+    font-size: 1.25em;
+    padding: 2em 1em 2em 1em;
+}
+
+.boxBrown h3{
+    color: white;
+    font-size: 1.5em;
+    padding-top: 2em;
+}
+
+.boxBrown img{
+    margin-top: -7em;
+}
+
+
+.greyish{
+    color: #CEB8A6;
+}
+
+.yellowfirst2::before{
+    content: "3 Step Food ";
+    color: #F6B219;
+}
+
+.boxYellow{
+    display:inline-block;
+    width:350px;
+    height:300px;
+    background-color:#F6B219;
+    margin: 5em 0 8em 0;
+    border-top-right-radius: 4em;
+    border-bottom-left-radius: 4em;
+
+}
+
+.boxYellow p{
+    color: white;
+    font-size: 1.25em;
+    padding: 4em 1em 2em 1em;
+}
+
+.boxTron{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:#5a2f27;
+    margin: -2em 0 0 -2em;
+    border-radius: 50%;
+}
+
+.boxTron h4{
+    color: white;
+    font-size: 2em;
+    padding: 1em 0;
+}
+
+
+
+
+
+#backgroundBrown{
+    background-color: #5a2f27;
+    padding: 8em 0;
+}
+
+#bannerBenRight{
+    width: 90%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#backgroundBrown h1{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.yellowfirst3::before{
+    content: "Clients ";
+    color: #F6B219;
+}
+
+.boxWhite{
+    display:inline-block;
+    width: 700px;
+    height:375px;
+    background-color: white;
+    margin: 7em 0 8em 0;
+    text-align: center;
+}
+
+.boxWhite p{
+    font-size: 1.25em;
+    padding: 0em 2em 3em 2em;
+}
+
+.boxWhite h3{
+    font-size: 2em;
+    margin: 1em;
+}
+
+#bannerBenRight img{
+    margin-top: -7em;
+}
+
+.chamTronYellow{
+    background-color: #F6B219;
+    display:inline-block;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    margin-bottom: -10em;
+}
+
+.chamTronYellow{
+    background-color: #F6B219;
+    display:inline-block;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    margin-bottom: -7em;
+}
+
+.chamTronWhite{
+    background-color: white;
+    display:inline-block;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    margin-bottom: -7em;
+}
+
+
+
+#backgroundWhite h2{
+    font-size: 3em;
+}
+
+#backgroundWhite h5{
+    color:#F6B219;
+    font-size: 1.25em;
+    margin: 2em;
+}
+
+#backgroundWhite button{
+    padding: 1em 3em;
+    margin: 2em;
+    color: #fff;
+    background-color: #000;
+    border: solid pink thick;
+    border-radius: 1.5em;
+}
+
+
+
+
+#backgroundEND p{
+    background-color:#5a2f27;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
